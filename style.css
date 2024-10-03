@@ -1,0 +1,208 @@
+.tim img{
+    width: 24px;
+}
+.list-text{
+    list-style-type: none;
+    font-size: 20px;
+}
+.container{
+    display: flex;
+    column-gap: 4vw;
+    align-items: center;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0px 100px;
+}
+.tim{
+    display: flex;
+    column-gap: 4vw;
+}
+
+.first-box{
+    width: 120px;
+    background-color: gray;
+    height: 80px;
+}
+
+.second-box{
+    width: 50%;
+    background-color: gray;
+    height: 130px;
+    grid-column: 3 / 9;
+}
+.second{
+    display: grid;
+    grid-template-columns: auto ;
+}
+
+.third-box{
+    width: 180px;
+    background-color: gray;
+    height: 530px;
+}
+.first{
+    display: grid;
+    grid-template-rows: auto auto auto auto auto auto;
+    grid-template-columns: auto auto auto auto auto auto;
+    justify-content: space-around;
+}
+.first-left{
+    grid-area: 3 / 1 / 4 / 2;
+}
+.first-right{
+    grid-area: 1 / 2 / 5 / 4;
+}
+.third-boxes{
+        grid-area: 1 / 5 / 4 / 6;
+}
+.text h1{
+font-size: 60px;
+    text-align: justify;
+}
+.text p{
+    font-size: 36px;
+    text-align: justify;
+}
+.text{
+    width: 876px;
+}
+.third{
+    display: grid;
+    justify-content: space-evenly;
+    grid-template-columns: auto auto auto auto auto auto;
+}
+.third-left{
+    grid-column: 4 / 5;
+}
+.list-tex{
+    font-size: 28px;
+    list-style-type: decimal;
+    font-weight: bold;
+}
+.fourth{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    justify-content: center;
+}
+.text{
+    grid-column: 3 / 5;
+}
+
+.text-in {
+    display: grid;
+    grid-template-areas: 'myArea myArea myitem myitem';
+    grid-template-columns: repeat(6, 1fr);
+    /* gap: 55px; */
+    padding: 10px;
+    gap: 10px;
+}
+.te{
+    grid-area: myArea;
+    font-size: 28px;
+}
+.texti{
+    grid-area: myitem;
+    font-size: 36px;
+}
+.fifth{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    justify-content: center;
+}
+* {
+    box-sizing: border-box
+}
+
+img {
+    vertical-align: middle;
+}
+
+/* Slideshow container */
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.line{
+    height: 2px;
+    width: 100%;
+    grid-column: 4 / 10;
+    background-color: black;
+}
+.sixth{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+
+.list{
+    display: flex;
+    column-gap: 1vw;
+    list-style-type: none;
+}
+.classic-text{
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 20px;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+.seventh{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+.inner{
+    grid-column: 4 / 10;
+}
+.flex-left p{
+    font-size: 28px;
+}
+
+.eighth{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+}
+.eighth-first{
+    grid-column: 2/3;
+}
+
+.eighth-first,.eighth-second p{
+    font-size: 28px;
+}
+
+.portugal{
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+}

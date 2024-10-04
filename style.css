@@ -84,7 +84,7 @@ font-size: 60px;
 .fourth{
     display: grid;
     grid-template-columns: auto auto auto auto auto auto;
-    justify-content: center;
+    justify-content: space-between;
 }
 .text{
     grid-column: 3 / 5;
@@ -109,7 +109,7 @@ font-size: 60px;
 .fifth{
     display: grid;
     grid-template-columns: auto auto auto auto auto auto;
-    justify-content: center;
+    justify-content: space-between;
 }
 * {
     box-sizing: border-box
@@ -184,7 +184,7 @@ img {
     grid-template-columns: repeat(12, 1fr);
 }
 .inner{
-    grid-column: 4 / 10;
+    grid-column: 3 / 10;
 }
 .flex-left p{
     font-size: 28px;
@@ -203,6 +203,23 @@ img {
 }
 
 .portugal{
-    display: grid;
-    grid-template-columns: repeat(8, 1fr);
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0px 100px;
+}
+
+.fourth-box{
+    width: 120px;
+    background-color: gray;
+    height: 80px;
+}
+
+.footer-last{
+    flex-direction: column;
+    /* text-align: center; */
+    align-items: center;
+    display: flex;
+}
+footer{
+    background-color: #a6f5e4;
 }
